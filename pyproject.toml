@@ -7,7 +7,9 @@ authors = [
     { name = "rovnez", email = "rovnez42@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "ruff>=0.16.2",
+]
 
 [project.scripts]
 yapp-x1 = "yapp_x1:main"
